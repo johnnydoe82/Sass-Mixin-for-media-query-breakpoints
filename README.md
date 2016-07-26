@@ -28,7 +28,7 @@ The function:
 			}
 		}
 		@if $name == 'b'+$i+'max' {
-			@media all and (max-width: #{$px_value/16 - 0.063}em) {
+			@media all and (max-width: #{$px_value/16 - 0.0635}em) {
 				@content;
 			}
 		}
